@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+
+section.pagamento{
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    padding:0 2%;
+    flex-wrap: wrap;
+    margin: 90px auto;
+}
+.descricao-pagamento{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.pagamento img{
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .descricao-pagamento,
+    .descricao-pagamento{
+        width: 51%;
+        margin-bottom: 19px;
+    }
+}

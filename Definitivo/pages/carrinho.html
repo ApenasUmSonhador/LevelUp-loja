@@ -1,0 +1,259 @@
+<!--- início --->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+  <title>Carrinho</title>
+  <link rel="stylesheet" href="../CSS/header.css">
+  <link rel="stylesheet" href="../CSS/carrinho.css" />
+  <link rel="stylesheet" href="../CSS/footer.css">
+</head>
+
+<!--- carrinho de compras --->
+
+<body>
+
+  <!--- barra de navegação --->
+
+  <header>
+    <div>
+      <a href="../home.html" class="logo"> <img src="../assets/LevelUp_sem_fundo.png" class="logo" alt="logo"></a>
+    </div>
+
+    <div>
+      <nav>
+        <ul type="none">
+          <li><a href="../home.html">Início</a></li>
+          <li><a href="categorias.html">Categorias</a>
+            <ul type="none">
+              <li><a href="#">Mouse Pads</a></li>
+              <li><a href="#">Teclados</a></li>
+              <li><a href="#">Fones</a></li>
+              <li><a href="#">Mouses</a></li>
+              <li><a href="#">Notebooks</a></li>
+            </ul>
+          </li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="carrinho.html" class="atual"><img src="../assets/carrinho-azul.png" alt="carrinho"
+                class="carrinho"></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <!--- início carrinho de compras --->
+
+  <main>
+
+    <div class="page-title"></div>
+
+    <div class="content">
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th><strong>Produto</strong></th>
+              <th><strong>Valor</strong></th>
+              <th><strong>Quantidade</strong></th>
+            </tr>
+          </thead>
+
+          <!--- primeiro produto --->
+
+          <tbody>
+
+            <tr>
+              <td>
+                <div class="product">
+                  <img src="../assets/notebook.jpg" alt="" style="width: 200px; height: 200px;" />
+                  <div class="info">
+                    <div class="name"><strong>Notebook Gamer Acer Nitro 5</strong><br>Intel Core i5 8GB - 512GB SSD
+                      15,6”</div>
+                    <button class="category"><strong>Computadores</strong></button>
+                  </div>
+                </div>
+              </td>
+
+              <td>
+                <div class="value">
+
+                  <span>R$ 4.999,99</span>
+
+                </div>
+              </td>
+
+              <td>
+                <div class="qty">
+                  <input type="number" value="1" min="0" max="10">
+              </td>
+    </div>
+    </td>
+
+    <td>
+      <button class="remove">
+        <img src="../assets/lixeira.png" alt="" style="width: 50px; height: 50px;">
+      </button>
+    </td>
+
+    </tr>
+    <tr>
+
+
+      <!--- segundo produto --->
+
+      <td>
+        <div class="product">
+          <img src="../assets/mouse.png" alt="" style="width: 200px; height: 200px;" />
+          <div class="info">
+            <div class="name"><strong>Mouse Gamer Redragon Nothosaur</strong><br> 3200DPI, Com LED, Preto</div>
+            <button class="category"><strong>Mouses</strong></button>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="value">
+          <span>R$ 79,99</span>
+        </div>
+      </td>
+
+      <td>
+        <div class="qty">
+
+          <input type="number" value="1" min="0" max="10">
+      </td>
+
+      </div>
+      </td>
+
+      <td>
+        <button class="remove">
+          <img src="../assets/lixeira.png" alt="" style="width: 50px; height: 50px;">
+        </button>
+      </td>
+
+    </tr>
+
+    <!--- terceiro produto --->
+
+    <tr>
+      <td>
+        <div class="product">
+          <img src="../assets/fone de ouvido.png" alt="" style="width: 200px; height: 200px;" />
+          <div class="info">
+            <div class="name"><strong>Headset Gamer Husky Gaming Polar</strong><br> Preto, P3, Drivers 50mm, Rainbow
+            </div>
+            <button class="category"><strong>Fones de Ouvido</strong></button>
+          </div>
+        </div>
+      </td>
+
+      <td>
+        <div class="value">
+
+          <span>R$ 109,99</span>
+
+        </div>
+      </td>
+
+      <td>
+        <div class="qty">
+          <input type="number" value="1" min="0" max="10">
+      </td>
+      </div>
+      </td>
+
+      <td>
+        <button class="remove">
+          <img src="../assets/lixeira.png" alt="" style="width: 50px; height: 50px;">
+        </button>
+      </td>
+
+    </tr>
+    </tbody>
+    </table>
+    </section>
+    <aside>
+
+      <!--- finalização da compra --->
+
+      <div class="box">
+        <header>Resumo da compra</header>
+        <div class="info">
+          <div><span>Sub-total</span><span>R$ 5.189,97</span></div>
+          <div><span>Frete</span><span>Gratuito</span></div>
+
+          <div>
+            <button>
+              Adicionar cupom de desconto
+              <i class="bx bx-right-arrow-alt"></i>
+            </button>
+          </div>
+
+        </div>
+        <footer class="footer">
+          <span>Total</span>
+          <span>R$ 5.189,97 </span>
+        </footer>
+      </div>
+
+      <button><a href="pg_inicio.html" class="finalizar">Finalizar Compra</a></button>
+    </aside>
+
+    </div>
+  </main>
+  <!--- rodapé --->
+
+  <footer class="footer-2">
+
+    <div class="row">
+
+      <div class="col">
+        <img src="../assets/Imagem-footer.png" alt="" class="logo">
+      </div>
+
+      <div class="col">
+
+        <h3>Newsletter</h3>
+
+        <form>
+
+          <div class="icon">
+            <img src="../assets/envelope-footer.png"></img>
+          </div>
+
+          <input type="email" placeholder="Escreva seu email" required>
+
+          <div class="icon">
+            <button type="submit"><img src="../assets/seta-footer.png"></img></button>
+          </div>
+
+        </form>
+
+      </div>
+
+      <div class="col">
+
+        <h3>Redes Sociais</h3>
+
+        <ul>
+          <li><a href="#"><img src="../assets/facebook-footer.png" alt="">Facebook</a></li>
+          <li><a href="#"><img src="../assets/instagram-footer.png" alt="">Instagram</a></li>
+          <li><a href="#"><img src="../assets/twitter-footer.png" alt="">Twitter</a></li>
+        </ul>
+      </div>
+
+    </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

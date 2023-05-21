@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+
+section.pagamento{
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-around;
+    padding:0 2%;
+    flex-wrap: wrap;
+    margin: 90px auto;
+}
+.descricao-pagamento{
+    width:40%;
+}
+
+.descricao-pagamento img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.descricao-pagamento h3{
+    color:gray;
+    border: 1px solid rgb(140,140,140);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.descricao-pagamento h2{
+    color:#ededed;
+    font-size: 50px;
+}
+
+.form-pagamento{
+    -webkit-box-shadow: -8px 5px 15px 5px #C7C7C7;
+    box-shadow: 0px 5px 15px 5px #C7C7C7;
+    padding: 30px 30px 80px 30px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.form-pagamento form{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.form-100{width:100%;margin-bottom: 10px;}
+.form-50{width:100%;display: flex;margin-bottom: 10px;}
+
+.form-pagamento label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color:rgb(140,140,140);
+}
+
+.form-pagamento input[type=text]{
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-pagamento input[type=submit]{
+    width: 100%;
+    height: 40px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-100 a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .descricao-pagamento,
+    .descricao-pagamento{
+        width: 51%;
+        margin-bottom: 19px;
+    }
+}
